@@ -1,19 +1,27 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: Tentang PT.XYZ
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Sejarah Singkat
+PT. XYZ merupakan perusahaan yang bergerak di bidang pendidikan, teknologi informasi, dan digital marketing. Perusahaan ini didirikan dengan tujuan untuk berkontribusi dalam pengembangan kompetensi sumber daya manusia, khususnya di bidang teknologi informasi. Seiring dengan perkembangan kebutuhan industri yang semakin dinamis, PT. XYZ menghadirkan berbagai program edukasi berbasis ICT (Information and Communication Technology) yang dirancang untuk membekali peserta dengan keterampilan praktis dan relevan. Salah satu program unggulan yang dikembangkan adalah Guest Teacher dan Kelas Industri, yaitu kegiatan pembelajaran kolaboratif bagi siswa/i SMK, SMA, dan MAN guna meningkatkan kesiapan mereka dalam menghadapi dunia kerja.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Visi
+Menjadi perusahaan yang berperan aktif dalam pengembangan pendidikan dan teknologi informasi dengan menyediakan program edukasi berbasis ICT yang berkualitas, relevan dengan kebutuhan industri, serta berkontribusi dalam menciptakan sumber daya manusia yang kompeten dan siap bersaing di dunia kerja.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Misi
+- Menyediakan program pendidikan dan pelatihan berbasis teknologi informasi yang aplikatif dan sesuai dengan perkembangan industri.
+- Menjalin kerja sama dengan institusi pendidikan dalam mendukung peningkatan kompetensi siswa melalui kegiatan pembelajaran berbasis praktik.
+- Menghadirkan tenaga profesional dan praktisi industri sebagai fasilitator pembelajaran untuk memberikan wawasan dunia kerja secara langsung.
+- Mengembangkan layanan pendidikan, IT, dan digital marketing yang inovatif dan berorientasi pada kebutuhan pengguna.
+- Mendorong pemanfaatan teknologi digital sebagai sarana peningkatan kualitas pembelajaran dan produktivitas.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Sasaran Program
+PT. XYZ telah bekerja sama dengan berbagai sekolah menengah kejuruan dan institusi pendidikan di wilayah Jabodetabek.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Keunggulan
+- Materi berbasis praktik industri
+- Pengajar dari praktisi profesional
+- Program fleksibel sesuai kebutuhan sekolah
+- Berpengalaman bekerja sama dengan berbagai SMK & SMA
+- Pendekatan pembelajaran aplikatif
