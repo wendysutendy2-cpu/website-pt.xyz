@@ -2,7 +2,6 @@
 templateKey: index-page
 image: /img/lay-banner.png
 heading: Program Praktik Nyata untuk Dunia Industri
-subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Mengapa Harus PT.XYZ?
   description: >
