@@ -1,8 +1,7 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Our Coffee
-image: /img/oslinux.png
+image: /img/home-banner.png
 heading: Program IT dan Digital Berorientasi Industri
 description: >-
   PT. XYZ menyediakan program pelatihan IT dan digital profesional yang dirancang untuk mengembangkan keterampilan praktis dan memenuhi kebutuhan industri saat ini. Setiap program menekankan pembelajaran berbasis praktik, penerapan di dunia nyata, serta solusi berbasis teknologi untuk mempersiapkan peserta menghadapi dunia kerja digital masa kini.
@@ -32,7 +31,7 @@ intro:
       text: >
         Workshop ini memberikan pengetahuan mendasar dan pemahaman secara mendasar terkait digital marketing.
 
-  heading: What we offer
+  heading: ini menampilkan yang mana?
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
@@ -52,14 +51,12 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Aulia Rahman
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      Mengikuti program Guest Teacher ini sangat membuka wawasan saya tentang dunia kerja dan industri saat ini. Materi yang disampaikan relevan, mudah dipahami, dan memberikan gambaran nyata tentang keterampilan yang dibutuhkan setelah lulus.
+  - author: Siti Nurhaliza
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      Program Guest Teacher ini sangat bermanfaat karena narasumber berbagi pengalaman langsung dari dunia profesional. Saya menjadi lebih termotivasi dan percaya diri untuk mengembangkan skill yang sesuai dengan kebutuhan industri.
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
