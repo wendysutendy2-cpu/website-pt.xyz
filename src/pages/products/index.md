@@ -42,14 +42,20 @@ main:
   description: >
     Pembelajaran Nyata, Pengalaman Nyata Dokumentasi kegiatan pelatihan PT. XYZ yang menekankan pembelajaran berbasis praktik, penerapan teknologi, dan pengembangan kompetensi siap industri.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/mikrotik.png
+    # alt: A close-up of a paper filter filled with ground coffee
+    image: /img/dok1.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    # alt: A green cup of a coffee on a wooden table
+    image: /img/dok2.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    # alt: A green cup of a coffee on a wooden table
+    image: /img/dok2.jpg
+  image4:
+    # alt: A green cup of a coffee on a wooden table
+    image: /img/dok2.jpg
+  # image3:
+  #   alt: Coffee beans
+  #   image: /img/products-grid1.jpg
 testimonials:
   - author: Aulia Rahman
     quote: >-
@@ -57,7 +63,7 @@ testimonials:
   - author: Siti Nurhaliza
     quote: >-
       Program Guest Teacher ini sangat bermanfaat karena narasumber berbagi pengalaman langsung dari dunia profesional. Saya menjadi lebih termotivasi dan percaya diri untuk mengembangkan skill yang sesuai dengan kebutuhan industri.
-full_image: /img/products-full-width.jpg
+full_image: /img/mikro.jpg
 pricing:
   heading: Monthly subscriptions
   description: >-

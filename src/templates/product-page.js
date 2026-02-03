@@ -62,11 +62,16 @@ export const ProductPageTemplate = ({
                           <PreviewCompatibleImage imageInfo={main.image2} />
                         </article>
                       </div>
-                    </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image3} />
-                      </article>
+                      <div className="tile is-parent">
+                        <article className="tile is-child">
+                          <PreviewCompatibleImage imageInfo={main.image3} />
+                        </article>
+                      </div>
+                      <div className="tile is-parent">
+                        <article className="tile is-child">
+                          <PreviewCompatibleImage imageInfo={main.image4} />
+                        </article>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -178,7 +183,6 @@ export const productPageQuery = graphql`
           heading
           description
           image1 {
-            alt
             image {
               childImageSharp {
                 gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
@@ -186,7 +190,6 @@ export const productPageQuery = graphql`
             }
           }
           image2 {
-            alt
             image {
               childImageSharp {
                 gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
@@ -194,10 +197,16 @@ export const productPageQuery = graphql`
             }
           }
           image3 {
-            alt
             image {
               childImageSharp {
-                gatsbyImageData(quality: 72, layout: FULL_WIDTH)
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
+              }
+            }
+          }
+          image4 {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
               }
             }
           }
@@ -206,7 +215,6 @@ export const productPageQuery = graphql`
           author
           quote
         }
-
         full_image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)

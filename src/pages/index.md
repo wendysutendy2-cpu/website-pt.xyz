@@ -3,11 +3,11 @@ templateKey: index-page
 image: /img/lay-banner.png
 heading: Program Praktik Nyata untuk Dunia Industri
 mainpitch:
-  title: Mengapa Harus PT.XYZ?
+  title: Mengapa Harus PT.Aretanet Indonesia?
   description: >
-    PT. XYZ dipilih karena menawarkan program Guest Teacher dan Kelas Industri berbasis praktik nyata, dibimbing praktisi profesional, dan dirancang fleksibel sesuai kebutuhan sekolah untuk mencetak lulusan siap kerja.
+    PT. Aretanet Indonesia dipilih karena menawarkan program Guest Teacher dan Kelas Industri berbasis praktik nyata, dibimbing praktisi profesional, dan dirancang fleksibel sesuai kebutuhan sekolah untuk mencetak lulusan siap kerja.
 description: >-
-  PT. XYZ menghadirkan program pembelajaran berbasis industri melalui Guest Teacher dan Kelas Industri yang dirancang langsung oleh praktisi. Materi disesuaikan dengan kebutuhan sekolah dan dunia kerja agar siswa memiliki kompetensi siap pakai dan berdaya saing tinggi.
+  PT. Aretanet Indonesia menghadirkan program pembelajaran berbasis industri melalui Guest Teacher dan Kelas Industri yang dirancang langsung oleh praktisi. Materi disesuaikan dengan kebutuhan sekolah dan dunia kerja agar siswa memiliki kompetensi siap pakai dan berdaya saing tinggi.
 intro:
   blurbs:
     - image: /img/gambar2.png

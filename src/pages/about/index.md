@@ -1,10 +1,10 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: Tentang PT.XYZ
+title: Tentang PT.Aretanet Indonesia
 ---
 ### Sejarah Singkat
-PT. XYZ merupakan perusahaan yang bergerak di bidang pendidikan, teknologi informasi, dan digital marketing. Perusahaan ini didirikan dengan tujuan untuk berkontribusi dalam pengembangan kompetensi sumber daya manusia, khususnya di bidang teknologi informasi. Seiring dengan perkembangan kebutuhan industri yang semakin dinamis, PT. XYZ menghadirkan berbagai program edukasi berbasis ICT (Information and Communication Technology) yang dirancang untuk membekali peserta dengan keterampilan praktis dan relevan. Salah satu program unggulan yang dikembangkan adalah Guest Teacher dan Kelas Industri, yaitu kegiatan pembelajaran kolaboratif bagi siswa/i SMK, SMA, dan MAN guna meningkatkan kesiapan mereka dalam menghadapi dunia kerja.
+PT. Aretanet Indonesia merupakan perusahaan yang bergerak di bidang pendidikan, teknologi informasi, dan digital marketing. Perusahaan ini didirikan dengan tujuan untuk berkontribusi dalam pengembangan kompetensi sumber daya manusia, khususnya di bidang teknologi informasi. Seiring dengan perkembangan kebutuhan industri yang semakin dinamis, PT. Aretanet Indonesia menghadirkan berbagai program edukasi berbasis ICT (Information and Communication Technology) yang dirancang untuk membekali peserta dengan keterampilan praktis dan relevan. Salah satu program unggulan yang dikembangkan adalah Guest Teacher dan Kelas Industri, yaitu kegiatan pembelajaran kolaboratif bagi siswa/i SMK, SMA, dan MAN guna meningkatkan kesiapan mereka dalam menghadapi dunia kerja.
 
 ### Visi
 Menjadi perusahaan yang berperan aktif dalam pengembangan pendidikan dan teknologi informasi dengan menyediakan program edukasi berbasis ICT yang berkualitas, relevan dengan kebutuhan industri, serta berkontribusi dalam menciptakan sumber daya manusia yang kompeten dan siap bersaing di dunia kerja.
@@ -17,7 +17,7 @@ Menjadi perusahaan yang berperan aktif dalam pengembangan pendidikan dan teknolo
 - Mendorong pemanfaatan teknologi digital sebagai sarana peningkatan kualitas pembelajaran dan produktivitas.
 
 ### Sasaran Program
-PT. XYZ telah bekerja sama dengan berbagai sekolah menengah kejuruan dan institusi pendidikan di wilayah Jabodetabek.
+PT. Aretanet Indonesia telah bekerja sama dengan berbagai sekolah menengah kejuruan dan institusi pendidikan di wilayah Jabodetabek.
 
 ### Keunggulan
 - Materi berbasis praktik industri
