@@ -5,7 +5,6 @@ import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
-import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FullWidthImage from "../components/FullWidthImage";
 
@@ -19,7 +18,6 @@ export const ProductPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing,
 }) => {
   const heroImage = getImage(image) || image;
   const fullWidthImage = getImage(fullImage) || fullImage;
@@ -82,21 +80,6 @@ export const ProductPageTemplate = ({
         </div>
       </section>
       <FullWidthImage img={fullWidthImage} imgPosition={"bottom"} />
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <h2 className="has-text-weight-semibold is-size-2">
-                  {pricing.heading}
-                </h2>
-                <p className="is-size-5">{pricing.description}</p>
-                <Pricing data={pricing.plans} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
@@ -218,16 +201,6 @@ export const productPageQuery = graphql`
         full_image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
           }
         }
       }
