@@ -30,7 +30,7 @@ export const ProductPageTemplate = ({
           <div className="section">
             <div className="columns">
               <div className="column is-7 is-offset-1">
-                <h3 className="has-text-weight-semibold is-size-2">
+                <h3 className="has-text-weight-semibold is-size-1">
                   {heading}
                 </h3>
                 <p>{description}</p>
@@ -73,6 +73,34 @@ export const ProductPageTemplate = ({
                     </div>
                   </div>
                 </div>
+
+                <div className="tile is-ancestor">
+                  <div className="tile is-vertical">
+                    <div className="tile">
+                      <div className="tile is-parent is-vertical">
+                        <article className="tile is-child">
+                          <PreviewCompatibleImage imageInfo={main.image5} />
+                        </article>
+                      </div>
+                      <div className="tile is-parent">
+                        <article className="tile is-child">
+                          <PreviewCompatibleImage imageInfo={main.image6} />
+                        </article>
+                      </div>
+                      <div className="tile is-parent">
+                        <article className="tile is-child">
+                          <PreviewCompatibleImage imageInfo={main.image7} />
+                        </article>
+                      </div>
+                      <div className="tile is-parent">
+                        <article className="tile is-child">
+                          <PreviewCompatibleImage imageInfo={main.image8} />
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
                 <Testimonials testimonials={testimonials} />
               </div>
             </div>
@@ -83,6 +111,8 @@ export const ProductPageTemplate = ({
     </div>
   );
 };
+
+
 
 ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -187,6 +217,34 @@ export const productPageQuery = graphql`
             }
           }
           image4 {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
+              }
+            }
+          }
+          image5 {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
+              }
+            }
+          }
+          image6 {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
+              }
+            }
+          }
+          image7 {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
+              }
+            }
+          }
+          image8 {
             image {
               childImageSharp {
                 gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)

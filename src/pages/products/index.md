@@ -42,20 +42,21 @@ main:
   description: >
     Pembelajaran Nyata, Pengalaman Nyata Dokumentasi kegiatan pelatihan PT. XYZ yang menekankan pembelajaran berbasis praktik, penerapan teknologi, dan pengembangan kompetensi siap industri.
   image1:
-    # alt: A close-up of a paper filter filled with ground coffee
-    image: /img/smkyp.png
+    image: /img/smk109.jpg
   image2:
-    # alt: A green cup of a coffee on a wooden table
-    image: /img/smkds.png
+    image: /img/smkcip.jpg
   image3:
-    # alt: A green cup of a coffee on a wooden table
-    image: /img/smklg.png
+    image: /img/smk-ds.jpg
   image4:
-    # alt: A green cup of a coffee on a wooden table
-    image: /img/smkkut.png
-  # image3:
-  #   alt: Coffee beans
-  #   image: /img/products-grid1.jpg
+    image: /img/smk-yup.jpg
+  image5:
+    image: /img/smk-lgk.jpg
+  image6:
+    image: /img/smk-ku.jpg
+  image7:
+    image: /img/smk-ds.jpg
+  image8:
+    image: /img/smk-yup.jpg
 testimonials:
   - author: Aulia Rahman
     quote: >-
