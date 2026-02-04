@@ -6,11 +6,6 @@ import fb from "../img/social/fb.svg";
 import ig from "../img/social/ig.svg";
 import tik from "../img/social/tik.svg";
 
-// import facebook from "../img/social/fb.svg";
-// import instagram from "../img/social/tik.svg";
-// import twitter from "../img/social/ig.svg";
-// import vimeo from "../img/social/vimeo.svg";
-
 const Footer = () => {
   
     return (
