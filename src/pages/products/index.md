@@ -1,7 +1,7 @@
 ---
 templateKey: 'product-page'
 path: /products
-image: /img/home-banner.png
+image: /img/produk.png
 heading: Program IT dan Digital Berorientasi Industri
 description: >-
   PT. XYZ menyediakan program pelatihan IT dan digital profesional yang dirancang untuk mengembangkan keterampilan praktis dan memenuhi kebutuhan industri saat ini. Setiap program menekankan pembelajaran berbasis praktik, penerapan di dunia nyata, serta solusi berbasis teknologi untuk mempersiapkan peserta menghadapi dunia kerja digital masa kini.
@@ -43,16 +43,16 @@ main:
     Pembelajaran Nyata, Pengalaman Nyata Dokumentasi kegiatan pelatihan PT. XYZ yang menekankan pembelajaran berbasis praktik, penerapan teknologi, dan pengembangan kompetensi siap industri.
   image1:
     # alt: A close-up of a paper filter filled with ground coffee
-    image: /img/dok1.jpg
+    image: /img/smkyp.png
   image2:
     # alt: A green cup of a coffee on a wooden table
-    image: /img/dok2.jpg
+    image: /img/smkds.png
   image3:
     # alt: A green cup of a coffee on a wooden table
-    image: /img/dok2.jpg
+    image: /img/smklg.png
   image4:
     # alt: A green cup of a coffee on a wooden table
-    image: /img/dok2.jpg
+    image: /img/smkkut.png
   # image3:
   #   alt: Coffee beans
   #   image: /img/products-grid1.jpg

@@ -1,11 +1,15 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/logonav.png";
-import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
+import logo from "../img/logfot.png";
+import fb from "../img/social/fb.svg";
+import ig from "../img/social/ig.svg";
+import tik from "../img/social/tik.svg";
+
+// import facebook from "../img/social/fb.svg";
+// import instagram from "../img/social/tik.svg";
+// import twitter from "../img/social/ig.svg";
+// import vimeo from "../img/social/vimeo.svg";
 
 const Footer = () => {
   
@@ -39,12 +43,12 @@ const Footer = () => {
                         Products
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link className="navbar-item" to="/contact/examples">
                         Form Examples
                       </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a
                         className="navbar-item"
                         href="/admin/"
@@ -53,7 +57,7 @@ const Footer = () => {
                       >
                         Admin
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </section>
               </div>
@@ -70,39 +74,50 @@ const Footer = () => {
                         Contact
                       </Link>
                     </li>
+                    <li>
+                      <a
+                        className="navbar-item"
+                        href="/admin/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Admin
+                      </a>
+                    </li>
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              <div className="column is-3 social">
                 <a title="facebook" href="https://facebook.com">
                   <img
-                    src={facebook}
+                    src={fb}
                     alt="Facebook"
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
+                <a title="twitter" href="https://tiktok.com">
                   <img
                     className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
+                    src={tik}
+                    alt="TikTok"
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
                 <a title="instagram" href="https://instagram.com">
                   <img
-                    src={instagram}
+                    src={ig}
                     alt="Instagram"
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                                
+                {/* <a title="vimeo" href="https://tiktok.com">
                   <img
                     src={vimeo}
-                    alt="Vimeo"
+                    alt="Tiktok"
                     style={{ width: "1em", height: "1em" }}
                   />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

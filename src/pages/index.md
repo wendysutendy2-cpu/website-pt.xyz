@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-image: /img/lay-banner.png
+image: /img/home.png
 heading: Program Praktik Nyata untuk Dunia Industri
 mainpitch:
   title: Mengapa Harus PT.Aretanet Indonesia?

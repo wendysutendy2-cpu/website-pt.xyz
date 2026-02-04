@@ -1,6 +1,7 @@
 ---
 templateKey: 'about-page'
 path: /about
+image: /img/home.png
 title: Tentang PT.Aretanet Indonesia
 ---
 ### Sejarah Singkat
