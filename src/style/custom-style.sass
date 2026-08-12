@@ -71,10 +71,10 @@
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 .site-footer
-  background-color: #f7f7f7
-  color: #1f1f1f
+  background: linear-gradient(180deg, #edf5ff 0%, #dfeeff 100%)
+  color: #123b7a
   padding-top: 3rem
-  border-top: 1px solid rgba(17, 17, 17, 0.08)
+  border-top: 1px solid rgba(18, 59, 122, 0.12)
 
 .footer-inner
   display: flex
@@ -91,7 +91,7 @@
   width: 14rem
   height: auto
   object-fit: contain
-  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.04))
+  filter: drop-shadow(0 0 10px rgba(18, 59, 122, 0.08))
 
 .footer-nav
   display: flex
@@ -104,7 +104,7 @@
   font-size: 0.82rem
   font-weight: 700
   letter-spacing: 0.08em
-  color: #222222
+  color: #123b7a
   text-transform: uppercase
 
 .footer-column ul
@@ -116,16 +116,16 @@
   margin-bottom: 0.6rem
 
 .footer-column a
-  color: #444444
+  color: #234f9b
   text-decoration: none
   transition: color 0.2s ease
 
 .footer-column a:hover
-  color: #000000
+  color: #0a2f6d
 
 .footer-bottom
-  border-top: 1px solid rgba(17, 17, 17, 0.08)
-  background: rgba(0, 0, 0, 0.01)
+  border-top: 1px solid rgba(18, 59, 122, 0.12)
+  background: rgba(255, 255, 255, 0.35)
 
 .footer-bottom-inner
   display: flex
@@ -136,7 +136,7 @@
 
 .footer-bottom p
   margin: 0
-  color: #555555
+  color: #315d9d
   font-size: 0.95rem
 
 .social-links
@@ -152,17 +152,17 @@
   justify-content: center
   border-radius: 50%
   background: #ffffff
-  border: 1px solid rgba(0, 0, 0, 0.08)
+  border: 1px solid rgba(18, 59, 122, 0.12)
   transition: transform 0.2s ease, box-shadow 0.2s ease
 
 .social-links a:hover
   transform: translateY(-2px)
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08)
+  box-shadow: 0 8px 18px rgba(18, 59, 122, 0.12)
 
 .social-links img
   width: 1.15rem
   height: 1.15rem
-  filter: none
+  filter: brightness(0) saturate(100%) invert(24%) sepia(46%) saturate(1178%) hue-rotate(189deg) brightness(89%) contrast(89%)
 
 @media screen and (max-width: 768px)
   .footer-inner
