@@ -8,7 +8,7 @@ description: >-
   Kenalan dengan Linux dari dasar hingga siap digunakan di dunia kerja. Pelajari konsep, skill penting, dan peluang karier IT yang menjadikan Linux sebagai fondasi utama teknologi modern.
 tags:
   - linux
-  - belajarlinux
+  - belajarlinuxlu
   - linuxpemula
   - networking
   - linuxfundamental
