@@ -6,119 +6,86 @@ import fb from "../img/social/fb.svg";
 import ig from "../img/social/ig.svg";
 import tik from "../img/social/tik.svg";
 
+const footerLinks = [
+  { label: "Home", to: "/" },
+  { label: "About", to: "/about" },
+  { label: "Products", to: "/products" },
+];
+
+const secondaryLinks = [
+  { label: "Artikel", to: "/blog" },
+  { label: "Contact", to: "/contact" },
+  { label: "Admin", href: "/admin/" },
+];
+
+const socialLinks = [
+  { name: "Facebook", href: "https://facebook.com", src: fb },
+  { name: "TikTok", href: "https://tiktok.com", src: tik },
+  { name: "Instagram", href: "https://instagram.com", src: ig },
+];
+
 const Footer = () => {
-  
-    return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: "14em", height: "10em" }}
-          />
+  return (
+    <footer className="site-footer">
+      <div className="container footer-inner">
+        <div className="footer-brand">
+          <img src={logo} alt="PT.xyz" />
         </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: "100vw" }} className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    {/* <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li> */}
-                    {/* <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li> */}
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Artikel
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-3 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={fb}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="twitter" href="https://tiktok.com">
-                  <img
-                    className="fas fa-lg"
-                    src={tik}
-                    alt="TikTok"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={ig}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                                
-                {/* <a title="vimeo" href="https://tiktok.com">
-                  <img
-                    src={vimeo}
-                    alt="Tiktok"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a> */}
-              </div>
-            </div>
+
+        <div className="footer-nav">
+          <div className="footer-column">
+            <h4>Menu</h4>
+            <ul>
+              {footerLinks.map((item) => (
+                <li key={item.label}>
+                  <Link to={item.to}>{item.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="footer-column">
+            <h4>More</h4>
+            <ul>
+              {secondaryLinks.map((item) =>
+                item.href ? (
+                  <li key={item.label}>
+                    <a href={item.href} target="_blank" rel="noopener noreferrer">
+                      {item.label}
+                    </a>
+                  </li>
+                ) : (
+                  <li key={item.label}>
+                    <Link to={item.to}>{item.label}</Link>
+                  </li>
+                )
+              )}
+            </ul>
           </div>
         </div>
-      </footer>
-    );
+      </div>
+
+      <div className="footer-bottom">
+        <div className="container footer-bottom-inner">
+          <p>© 2026 PT.xyz. All rights reserved.</p>
+          <div className="social-links" aria-label="Social media">
+            {socialLinks.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                title={item.name}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={item.name}
+              >
+                <img src={item.src} alt={item.name} />
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;

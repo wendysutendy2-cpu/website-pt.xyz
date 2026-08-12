@@ -70,28 +70,120 @@
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
-footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
+.site-footer
+  background-color: #000000
+  color: #f5f5f5
+  padding-top: 3rem
+  border-top: 1px solid rgba(255, 255, 255, 0.08)
 
+.footer-inner
+  display: flex
+  align-items: center
+  justify-content: space-between
+  gap: 2rem
+  padding-bottom: 2rem
 
-.menu-label
-  font-size: 1em !important
-  text-align: left
-.menu-list
-  list-style: none !important
-  text-align: left
-.social
-  padding: 2em
-.social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
+.footer-brand
+  flex: 0 0 auto
+
+.footer-brand img
+  display: block
+  width: 14rem
+  height: auto
+  object-fit: contain
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.08))
+
+.footer-nav
+  display: flex
+  justify-content: flex-end
+  gap: 4rem
+  flex: 1
+
+.footer-column h4
+  margin-bottom: 1rem
+  font-size: 0.82rem
+  font-weight: 700
+  letter-spacing: 0.08em
+  color: #ffffff
+  text-transform: uppercase
+
+.footer-column ul
+  list-style: none
+  margin: 0
+  padding: 0
+
+.footer-column li
+  margin-bottom: 0.6rem
+
+.footer-column a
+  color: rgba(255, 255, 255, 0.8)
+  text-decoration: none
+  transition: color 0.2s ease
+
+.footer-column a:hover
+  color: #ffffff
+
+.footer-bottom
+  border-top: 1px solid rgba(255, 255, 255, 0.08)
+  background: rgba(255, 255, 255, 0.01)
+
+.footer-bottom-inner
+  display: flex
+  align-items: center
+  justify-content: space-between
+  gap: 1rem
+  padding: 1.25rem 0
+
+.footer-bottom p
+  margin: 0
+  color: rgba(255, 255, 255, 0.7)
+  font-size: 0.95rem
+
+.social-links
+  display: flex
+  align-items: center
+  gap: 0.9rem
+
+.social-links a
+  width: 2.6rem
+  height: 2.6rem
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  border-radius: 50%
+  background: rgba(255, 255, 255, 0.08)
+  border: 1px solid rgba(255, 255, 255, 0.08)
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease
+
+.social-links a:hover
+  transform: translateY(-2px)
+  background: rgba(255, 255, 255, 0.14)
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1)
+
+.social-links img
+  width: 1.15rem
+  height: 1.15rem
+  filter: brightness(0) invert(1)
+
+@media screen and (max-width: 768px)
+  .footer-inner
+    flex-direction: column
+    text-align: center
+
+  .footer-nav
+    width: 100%
+    justify-content: center
+    gap: 2rem
+
+  .footer-column
+    text-align: center
+
+  .footer-bottom-inner
+    flex-direction: column
+    text-align: center
+
+  .social-links
+    justify-content: center
 
 // blog roll
 .blog-list-item.is-featured
