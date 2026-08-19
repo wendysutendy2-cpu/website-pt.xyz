@@ -6,9 +6,8 @@ date: 2026-08-19T12:00:00.000Z
 featuredpost: true
 featuredimage: /img/pengertian-mikrotik.png
 description: >-
-  Mengenal MikroTik untuk pemula, mulai dari pengertian, fungsi, RouterOS,
-  hingga peluang karier di bidang jaringan komputer.
-hingga peluang karier di bidang jaringan komputer.
+  "Mengenal MikroTik untuk pemula, mulai dari pengertian, fungsi, RouterOS,
+  hingga peluang karier di bidang jaringan komputer."
 
 tags:
  - mikrotik
