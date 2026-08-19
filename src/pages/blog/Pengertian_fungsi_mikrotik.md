@@ -16,8 +16,8 @@ tags:
  - networking
  - routeros
  - winbox
-
 ---
+![chemex](/img/mikrotik.jpg)
 
 # Mengenal MikroTik: Pengertian, Fungsi, dan Cara Kerjanya
 
